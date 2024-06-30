@@ -6,20 +6,20 @@
     <title>Formulario de Login</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', Times, serif, sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-image: url('fondo.jpg'); /* Reemplaza 'fondo.jpg' con la ruta de tu imagen de fondo */
+            background-image: url('https://th.bing.com/th/id/R.42783c5c7c01a8ccafc9224b8a121680?rik=cxotn1WvHMuHsg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2fImages-Light-Blue-Wallpaper-HD.jpg&ehk=ivBrlRDUHwNNbNO7X6m3WvttWIHoh0WZVT%2bDPIxOgU8%3d&risl=&pid=ImgRaw&r=0');
             background-size: cover;
             background-position: center;
         }
         .login-container {
-            background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-opaco */
+            background-color: rgba(255, 255, 255, 0.2);
             padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
             border-radius: 5px;
             width: 320px;
             text-align: center;
@@ -63,16 +63,13 @@
 </head>
 <body>
     <div class="login-container">
-        <img src="logo.png" alt="Logo" width="100">
-        <h2>Sistema de Citas - Diabetes</h2>
+        <img src="https://download.logo.wine/logo/Microsoft_account/Microsoft_account-Logo.wine.png" alt="Logo" width="200">
+        <h2>Iniciar Sesión</h2>
         <form action="menu.html" method="post">
             <input type="text" placeholder="Usuario" name="username" required>
             <input type="password" placeholder="Contraseña" name="password" required>
             <button type="submit">Ingresar</button>
         </form>
-        <div class="footer">
-            Sistema de Gestión de Citas
-        </div>
     </div>
 </body>
 </html>
