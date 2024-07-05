@@ -44,7 +44,7 @@
             <a href="creditos.html">Derechos de Autor</a>
         </div>
         <div>
-            <a href="login.HTML">Cerrar Sesión</a>
+            <a href="index.jsp">Cerrar Sesión</a>
         </div>
     </div>
     <div class="menu-content">
