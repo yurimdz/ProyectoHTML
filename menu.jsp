@@ -37,11 +37,11 @@
 <body>
     <div class="menu-container">
         <div>
-            <a href="informacion.html">Información</a>
-            <a href="contacto.html">Contacto</a>
-            <a href="mantenimiento.html">Mantenimiento</a>
-            <a href="videos.html">Videos</a>
-            <a href="creditos.html">Derechos de Autor</a>
+            <a href="informacion.jsp">Información</a>
+            <a href="contacto.jsp">Contacto</a>
+            <a href="mantenimiento.jsp">Mantenimiento</a>
+            <a href="videos.jsp">Videos</a>
+            <a href="creditos.jsp">Derechos de Autor</a>
         </div>
         <div>
             <a href="index.jsp">Cerrar Sesión</a>
